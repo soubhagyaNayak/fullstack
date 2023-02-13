@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+body{
+    font-family: poppins,sans-serif;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-container>div>img{
+    width: 200px;
+    margin: 50px 90px;
+    cursor: pointer;
+}
+.list-item{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.list-item:nth-child(1){
+    color: black;
+    font-weight: bold;
+}
+
+.button-group{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+.nav-button{
+    border: none;
+    background-color: rgba(4,0,131, 0.626);
+    color: white;
+    padding: 14px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-text{
+    font-size: 50px;
+    margin-left: 90px;
+    margin-right: 50px;
+    padding: 20px 0px;
+    color: rgb(19, 0, 80);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+span{
+    color: blue;
+}
+
+.description{
+    margin-left: 90px;
+    margin-right: 150px;
+    font-size: 13px;
+    color: #919399;
+}
+
+.btn{
+    margin: 55px 90px ;
+    padding: 20px 40px;
+    margin-left: 90px;
+}
+
+.navbar-container>div>ul>li{
+    display: flex;
+    flex-direction: row;
+    display: inline;
+    margin: 30px;
+    padding: 10px;
+    font-size: 20px;
+}

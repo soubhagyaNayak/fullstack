@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+body{
+    background: url(bg.png) no-repeat center center fixed;
+    background-size: cover ;
+    height: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+img{
+    height: 30px;
+    padding: 30px 40px 20px 40px ;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 80px;
+    cursor: pointer;
+}
+
+ul,li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    color: white;
+    top: 20px;
+    cursor: pointer;
+}
+ul>li{
+    margin: 20px;
+    cursor: pointer;
+}
+
+li:first-child::after{
+    content: "^";
+    color: white;
+    top: 5px;
+    left: 10px;
+    font-weight: bolder;
+    position: relative;
+}
+
+button{
+    background-color: #8D3DAF;
+    color: #ffffff;
+    height: 40px;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 380px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.line::after{
+    content: " | ";
+    color: #ffffff;
+    position: relative;
+    top: 30px;
+}
+
+.hero{
+  display: block;
+  align-items: center;
+}
+.hero-heading{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 54px;
+}
+
+.hero-description{
+  text-align: center;  
+  padding: 10px 20px;
+  font-size:24px ;
+}
+
+.button-large{
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    padding: 4px 3px;
+}
